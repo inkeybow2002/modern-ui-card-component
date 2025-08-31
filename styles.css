@@ -1,29 +1,29 @@
 .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: 0.3s;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevents contents from overflowing */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow effect */
+    transition: 0.3s; /* Smooth transition for hover effects */
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintains aspect ratio */
 }
 
 .container {
-    padding: 16px;
+    padding: 16px; /* Padding inside container */
 }
 
 h4 {
-    margin: 0;
-    font-size: 1.5em;
+    margin: 0; /* No margin for h4 */
+    font-size: 1.5em; /* Font size for heading */
 }
 
 p {
-    color: #777;
+    color: #777; /* Text color for paragraph */
 }
