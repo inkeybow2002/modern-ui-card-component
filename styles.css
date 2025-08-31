@@ -1,13 +1,13 @@
 .card {
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 8px; /* Rounded corners */
-    overflow: hidden; /* Prevents contents from overflowing */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow effect */
-    transition: 0.3s; /* Smooth transition for hover effects */
+    border: 1px solid #ccc; /* Light gray border for card */
+    border-radius: 8px; /* Rounded corners for card */
+    overflow: hidden; /* Prevents contents from overflowing the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow effect for card */
+    transition: 0.3s; /* Smooth transition for hover effects on card */
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow effect on hover */
 }
 
 .card img {
@@ -16,14 +16,14 @@
 }
 
 .container {
-    padding: 16px; /* Padding inside container provides spacing */
+    padding: 16px; /* Padding inside container provides spacing around content */
 }
 
 h4 {
-    margin: 0; /* No margin for h4 ensures consistent spacing */
+    margin: 0; /* No margin for h4 ensures consistent spacing with other elements */
     font-size: 1.5em; /* Font size for heading defines its importance */
 }
 
 p {
-    color: #777; /* Text color for paragraph gives a subtle contrast */
+    color: #777; /* Text color for paragraph provides a subtle contrast */
 }
